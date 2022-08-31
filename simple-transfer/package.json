@@ -1,0 +1,17 @@
+{
+  "name": "simple-transfer",
+  "version": "1.0.0",
+  "description": "Simple transfers between accounts",
+  "main": "index.js",
+  "repository": "github.com/xx-labs/exchange-integration/simple-transfer",
+  "author": "xx labs",
+  "license": "MIT",
+  "scripts": {
+    "start": "WS_CHAIN='ws://localhost:63007' node index.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^9.2.4",
+    "@polkadot/keyring": "^10.1.6",
+    "dotenv": "^16.0.0"
+  }
+}

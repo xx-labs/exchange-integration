@@ -1,0 +1,15 @@
+{
+  "name": "address-validation",
+  "version": "1.0.0",
+  "description": "Example on how to validate an xx network address using SS58 format",
+  "main": "index.js",
+  "repository": "github.com/xx-labs/exchange-integration/address-validation",
+  "author": "xx labs",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@polkadot/keyring": "^10.1.6"
+  }
+}

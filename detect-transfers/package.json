@@ -1,0 +1,15 @@
+{
+  "name": "detect-transfers",
+  "version": "1.0.0",
+  "description": "detect transfers to a given address",
+  "main": "index.js",
+  "repository": "github.com/xx-labs/exchange-integration/detect-transfers",
+  "license": "MIT",
+  "scripts": {
+    "start": "WS_CHAIN='ws://localhost:63007' node index.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^9.2.4",
+    "dotenv": "^16.0.0"
+  }
+}

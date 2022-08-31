@@ -1,0 +1,16 @@
+{
+  "name": "transfer",
+  "version": "1.0.0",
+  "description": "Transfer construction, adding signature from offline-sign and broadcast",
+  "main": "index.js",
+  "repository": "github.com/xx-labs/exchange-integration/transfer",
+  "author": "xx labs",
+  "license": "MIT",
+  "scripts": {
+    "start": "WS_CHAIN='ws://localhost:63007' node index.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^9.2.4",
+    "dotenv": "^16.0.0"
+  }
+}
