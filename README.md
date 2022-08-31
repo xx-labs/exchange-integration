@@ -117,10 +117,10 @@ To run any of the scripts, run the following commands:
 
 ```sh
 cd [script-folder] # example cd address-validation
-yarn start
+yarn && yarn start
 ```
 
-For developement or testing purposes, we recommend starting a local `xxnetwork-chain` instance in `dev` mode, using the following command:
+For development or testing purposes, we recommend starting a local `xxnetwork-chain` instance in `dev` mode, using the following command:
 
 ```sh
 ./xxnetwork-chain -d devchain --dev --ws-port=63007
@@ -129,10 +129,10 @@ For developement or testing purposes, we recommend starting a local `xxnetwork-c
 The `dev` mode blockchain contains special development accounts preloaded with funds. You can use the web-based [wallet](https://wallet.xx.network/?rpc=ws%3A%2F%2F127.0.0.1%3A63007#/explorer) to connect to your local blockchain instance. In the [accounts](https://wallet.xx.network/?rpc=ws%3A%2F%2F127.0.0.1%3A63007#/accounts) page, you will find the development accounts, and can use them to send transfers, or any other transactions for testing purposes.
 
 ### Address validation
-This script shows how to validate a correctly formed xx network address, using the SS58 address format. It contains examples of various invalid addresses, including ones from other Substrate-based networks. t can be found in [address-validation](address-validation).
+This script shows how to validate a correctly formed xx network address, using the SS58 address format. It contains examples of various invalid addresses, including ones from other Substrate-based networks. It can be found in [address-validation](address-validation).
 
 ### Detect transfers
-This script shows how to listen for new finalized blocks, and then filter the events emmitted, to detect all the transfers that happened in the block. It can be found in [detect-transfers](detect-transfers).
+This script shows how to listen for new finalized blocks, and then filter the events emitted, to detect all the transfers that happened in the block. It can be found in [detect-transfers](detect-transfers).
 
 ### Offline sign
 This script shows how to sign a transaction without being connected to a node. It is meant to be used together with the [transfer](transfer) script. This script waits for a signing payload to be input into the console, and then signs it using Alice's wallet. Then it outputs the signature, which can be input into the [transfer](transfer) script. It can be found in [offline-sign](offline-sign).
