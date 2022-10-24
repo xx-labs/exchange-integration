@@ -76,7 +76,10 @@ curl -H "Content-Type: application/json" -d '{"id":"1", "jsonrpc":"2.0", "method
 Regardless of the choice of library, in order to connect to the xx network blockchain, an endpoint must be specified.
 
 ## Connect to Public Endpoint
-The xx Foundation is currently providing a public endpoint for exchanges to test their integrations. There are no guarantees to the availability, performance, or security of this endpoint and it is strongly recommended that you set up your own node for interacting with the xx network blockchain. If you would like to use this endpoint then please contact listings@xxfoundation.org 
+
+Current list of public endpoints:
+* xx Foundation (pruned node): `wss://rpc.xx.network`
+* Dwellir (archive node): `wss://xxnetwork-rpc.dwellir.com`
 
 ## Setup a Node
 
