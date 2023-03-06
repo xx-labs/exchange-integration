@@ -78,8 +78,8 @@ Regardless of the choice of library, in order to connect to the xx network block
 ## Connect to Public Endpoint
 
 Current list of public endpoints:
-* xx Foundation (pruned node): `wss://rpc.xx.network`
-* Dwellir (archive node): `wss://xxnetwork-rpc.dwellir.com`
+* xx foundation (pruned node): `wss://rpc.xx.network`
+* onFinality (archive node): `wss://xx.api.onfinality.io/public-ws`
 
 ## Setup a Node
 
